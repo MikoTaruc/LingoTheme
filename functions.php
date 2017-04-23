@@ -8,6 +8,6 @@
   function load_styles($page) {
     echo("loadstyles\r\n");
     $root = get_template_directory_uri();
-    wp_enqueue_style('style', "$root/styles/css/$page.css");
+    wp_enqueue_style('style', "$root/styles/compiled-css/$page.css");
   }
 ?>
