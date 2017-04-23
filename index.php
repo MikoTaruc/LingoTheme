@@ -5,8 +5,8 @@
 
 <div id='index-page'>
   THIS IS THE INDEX PAGE
-  <div class='index-category'>
-
+  <div class='category-row'>
+    Category Row
   </div>
 </div>
 
