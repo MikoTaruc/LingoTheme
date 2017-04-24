@@ -1,5 +1,6 @@
 <?
   function load_default_styles() {
+    wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
     wp_enqueue_style('defaults', get_stylesheet_uri());
   }
 

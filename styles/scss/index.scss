@@ -1,8 +1,41 @@
 #index-page {
-  background-color: green;
+  // background-color: green;
 
-  .category-row {
-    background-color: red;
+  .category-list {
+    // These flex properties are to be set on the container.
+    display: flex;
+    flex-direction: column;
+    // All flex items will be on one line
+    flex-wrap: nowrap;
+
+    .category-row {
+      // background-color: red;
+      width: 100%;
+      margin: 15px 0;
+
+      .category-row-options {
+        display: block;
+        padding: 0 15px;
+      }
+
+      .category-posts-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+      }
+
+      .post {
+        // border: 1px solid black;
+        padding: 15px;
+
+        .post-thumbnail {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }
 
